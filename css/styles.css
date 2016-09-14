@@ -1,5 +1,13 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
 body {
     font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #37474F;
+    background-color: #FFFFFF;
 }
 
 ul {
@@ -47,11 +55,16 @@ li {
     padding: 5px 0;
     margin-bottom: 20px;
     border-bottom: 1px solid #eeeeee;
-    color: #515769;
+    color: #263238;
+    line-height: 35px;
 }
 
 .section-container {
     margin-bottom: 40px;
+}
+
+.section-body .row {
+    margin-bottom: 20px;
 }
 
 .highlight-bar {
@@ -59,6 +72,24 @@ li {
     width: 100px;
     background: #17bed2;
     position: absolute;
+}
+
+.content-title {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.content-body {
+    margin-top: 10px;
+}
+
+.content- footer {
+    margin-top: 100px;
+    padding: 50px 0px;
+    background-color: #eeeeee;
+    border-top: 1px solid #dddddd;
+    font-size: 11px;
+    color: #dddddd;
 }
 
 @media (min-width: 320px) {}

@@ -1,31 +1,74 @@
-body{ background-color: #eeeeee;}
-a { color: #333333; font-family: Arial, Helvetica, sans-serif};
-
-@media (min-width: 320px) {
+body {
+    background-color: #eeeeee;
+    font-family: sans-serif;
 }
 
-@media (min-width: 480px) {
+ul {
+    padding: 0px;
 }
+
+ul li {
+    list-style: none;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.banner {
+    background-color: #dddddd;
+    padding: 100px 0;
+}
+
+.section-title {
+    font-size: 21px;
+    font-weight: 700;
+    padding: 5px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.section-container {
+    margin-bottom: 40px;
+}
+
+.highlight-bar {
+    height: 5px;
+    width: 100px;
+    background: #17bed2;
+    position: absolute;
+}
+
+@media (min-width: 320px) {}
+
+@media (min-width: 480px) {}
+
 @media (min-width: 768px) {
     .container {
         width: 750px;
     }
 }
+
 @media (min-width: 992px) {
     .container {
         width: 970px;
     }
 }
+
 @media (min-width: 1200px) {
     .container {
         width: 1170px;
     }
 }
+
 @media (min-width: 1440px) {
     .container {
         width: 1200px;
     }
 }
+
 @media (min-width: 1600px) {
     .container {
         width: 1440px;

@@ -44,10 +44,13 @@ li {
 
 .cv-download:hover,
 .cv-download:active,
+.cv-download.active,
+.cv-download.active:hover,
 .cv-download:focus,
-.cv-download:visited {
+.cv-download.focus {
     background-color: #17bed2;
     color: #ffffff;
+    border: 1px solid #17bed2;
 }
 
 .section-title {
@@ -84,13 +87,13 @@ li {
     margin-top: 10px;
 }
 
-.content- footer {
+footer {
     margin-top: 100px;
     padding: 50px 0px;
     background-color: #eeeeee;
     border-top: 1px solid #dddddd;
-    font-size: 11px;
-    color: #dddddd;
+    font-size: 12px;
+    color: #999999;
 }
 
 @media (min-width: 320px) {}

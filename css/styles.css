@@ -10,6 +10,10 @@ body {
     background-color: #FFFFFF;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 ul li {
     list-style: none;
 }
@@ -32,6 +36,25 @@ li {
     background-color: #515769;
     padding: 100px 0;
     color: #ffffff
+}
+
+.connect-icons {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.connect-icons:hover {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #37474F;
+    background: #ffffff;
 }
 
 .cv-download {

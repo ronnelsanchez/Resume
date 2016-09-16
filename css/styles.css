@@ -10,12 +10,12 @@ body {
     background-color: #FFFFFF;
 }
 
-ul {
-    padding: 0px;
-}
-
 ul li {
     list-style: none;
+}
+
+ul.list-bullet li {
+    list-style: disc;
 }
 
 li {

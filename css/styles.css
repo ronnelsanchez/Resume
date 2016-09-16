@@ -36,17 +36,18 @@ li {
 
 .cv-download {
     margin: 20px 0px;
-    border-radius: 2px!important;
-    border: 1px solid #17bed2!important;
-    color: #17bed2!important;
+    border-radius: 2px;
+    border: 1px solid #17bed2;
+    color: #17bed2;
+    background-color: #ffffff;
 }
 
 .cv-download:hover,
 .cv-download:active,
 .cv-download:focus,
 .cv-download:visited {
-    background-color: #17bed2!important;
-    color: #ffffff!important;
+    background-color: #17bed2;
+    color: #ffffff;
 }
 
 .section-title {

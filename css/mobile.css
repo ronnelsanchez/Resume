@@ -5,6 +5,12 @@
     .right-content {
         padding-left: 15px;
     }
+    footer {
+        text-align: center;
+    }
+    .connect-footer {
+        float: none;
+    }
 }
 
 @media (min-width: 480px) {
@@ -14,6 +20,12 @@
     .right-content {
         padding-left: 15px;
     }
+    footer {
+        text-align: center;
+    }
+    .connect-footer {
+        float: none;
+    }
 }
 
 @media (min-width: 768px) {
@@ -22,6 +34,12 @@
     }
     .right-content {
         padding-left: 15px;
+    }
+    footer {
+        text-align: inherit;
+    }
+    .connect-footer {
+        float: right;
     }
 }
 

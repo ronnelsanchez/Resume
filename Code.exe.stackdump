@@ -1,7 +1,7 @@
 Exception: STATUS_ACCESS_VIOLATION at eip=1001CE3D
-eax=0360F000 ebx=03EACCAC ecx=0360F000 edx=0360F000 esi=02B583C0 edi=000000B7
-ebp=03EAC738 esp=03EAC6E4 program=\\?\C:\Program Files (x86)\Microsoft VS Code\Code.exe, pid 10364, thread unknown (0x2814)
+eax=03A98000 ebx=0425CCAC ecx=03A98000 edx=03A98000 esi=00A3EB18 edi=000000B7
+ebp=0425C738 esp=0425C6E4 program=\\?\C:\Program Files (x86)\Microsoft VS Code\Code.exe, pid 5260, thread unknown (0x26A0)
 cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
 Stack trace:
 Frame     Function  Args
-03EAC738  1001CE3D
+0425C738  1001CE3D (0425C7FC, 00000104

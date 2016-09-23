@@ -2,6 +2,12 @@
 
 /* CSS Document */
 
+::selection {
+    color: #fff;
+    color: rgba(255, 255, 255, 0.9);
+    background: #56abb5;
+}
+
 body,
 html,
 html a {

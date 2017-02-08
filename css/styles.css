@@ -45,10 +45,28 @@ li {
     margin-bottom: 0px;
 }
 
+.hero-info {
+    position: relative;
+    z-index: 9;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.60);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
 .banner {
+    background-image: url('../img/philippine-bg.gif');
     background-color: #515769;
     padding: 100px 0;
-    color: #ffffff
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
 }
 
 .banner-title {

@@ -58,8 +58,7 @@ li {
     top: 0;
 }
 
-.banner {
-    background-image: url('../img/philippine-bg.gif');
+.banner-bg{
     background-color: #515769;
     padding: 100px 0;
     color: #ffffff;
@@ -67,6 +66,17 @@ li {
     background-position: center center;
     background-size: cover;
     position: relative;
+}
+.banner-loaded {
+    background-image: url('../img/philippine-bg.gif');
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+.banner-blur{
+     background-image: url('../img/philippine-bg-blur.jpg');
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 .banner-title {

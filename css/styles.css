@@ -113,20 +113,31 @@ li {
 
 .cv-download {
     margin: 20px 0px;
-    border-radius: 2px;
-    background-color: #17bed2;
+    border-radius: 50px;
+    background-color: #0097a7;
     color: #ffffff;
-    border: 1px solid #17bed2;
+    padding: 16px 20px 14px;
+    padding-left: 3px;
+    position: relative;
+    top: -50px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
 }
 
-.cv-download i{
-    font-size:21px;
+.cv-download-icon{
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.30);
+    color: #ffffff;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.cv-download i {
+    font-size: 21px;
     font-weight: bold;
-    margin-right: 8px;
 }
 
 .cv-download span{
-    vertical-align:text-bottom;
+    vertical-align:top;
 }
 
 .cv-download:hover,
@@ -135,9 +146,8 @@ li {
 .cv-download.active:hover,
 .cv-download:focus,
 .cv-download.focus {
-    background-color: #179bab;
+    background-color: #007582;
     color: #ffffff;
-    border: 1px solid #16818e;
 }
 
 .left-content {

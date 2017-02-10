@@ -1,7 +1,0 @@
-Exception: STATUS_ACCESS_VIOLATION at eip=1001CE3D
-eax=032D3000 ebx=03A9CCAC ecx=032D3000 edx=032D3000 esi=028E3550 edi=000000B7
-ebp=03A9C738 esp=03A9C6E4 program=C:\Users\ronnels\AppData\Local\GitHub\PortableGit_284a859b0e6deba86edc624fef1e4db2aa8241a9\usr\bin\uname.exe, pid 6932, thread unknown (0x1468)
-cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
-Stack trace:
-Frame     Function  Args
-03A9C738  1001CE3D (03A9C7FC, 00000104, 00000032, D5C57C3E)

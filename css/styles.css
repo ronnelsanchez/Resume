@@ -114,9 +114,9 @@ li {
 .cv-download {
     margin: 20px 0px;
     border-radius: 2px;
+    background-color: #17bed2;
+    color: #ffffff;
     border: 1px solid #17bed2;
-    color: #17bed2;
-    background-color: #ffffff;
 }
 
 .cv-download:hover,
@@ -125,9 +125,9 @@ li {
 .cv-download.active:hover,
 .cv-download:focus,
 .cv-download.focus {
-    background-color: #17bed2;
+    background-color: #179bab;
     color: #ffffff;
-    border: 1px solid #17bed2;
+    border: 1px solid #16818e;
 }
 
 .left-content {

@@ -3,6 +3,7 @@
   "short_name": "Ronnel Sanchez",
   "description": "UI/UX Designer and Front-End Developer",
   "background_color": "#0097a7",
+  "theme_color": "#0097a7",
   "icons": [{
       "src": "img/imronnel-57x57.png",
       "sizes": "48x48",

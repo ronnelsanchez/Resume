@@ -1,6 +1,8 @@
 {
   "name": "Resume | Ronnel Sanchez",
   "short_name": "Ronnel Sanchez",
+  "start_url": ".",
+  "display": "standalone",
   "background_color": "#0097a7",
   "description": "UI/UX Designer and Front-End Developer",
   "icons": [{
@@ -27,7 +29,6 @@
     "src": "img/imronnel-196x196.png",
     "sizes": "192x192",
     "type": "image/png"
-  }],
-  "start_url": "./index.html",
-  "display": "standalone"
+  }]
+  
 }

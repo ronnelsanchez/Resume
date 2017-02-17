@@ -71,9 +71,11 @@
   
     <meta name="msapplication-navbutton-color" content="#0097a7">
     <meta name="msapplication-task" content="name=Resume - Resume | Ronnel Sanchez;action-uri=https://ronnelsanchez.github.io/Resume" />
-    
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.2/css/simple-line-icons.css">
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/nprogress.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/mobile.css" rel="stylesheet">
 
@@ -86,6 +88,7 @@
            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
          <![endif]-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/nprogress.js"></script>
     <script> 
     window.addEventListener('load', function() {
 
@@ -141,11 +144,11 @@
                     </a>
                 </div>
             </div>
-            <div class="row">
+            <div class="row fade">
                 <div class="col-md-8 right-content  pull-right">
                     <div class="section-container">
                         <div class="section-title">
-                            Work Experience
+                            <h3>Work Experience</h3>
                             <div class="highlight-bar"></div>
                         </div>
                         <div class="section-body">
@@ -240,7 +243,7 @@
                     </div>
                     <div class="section-container">
                         <div class="section-title">
-                            Education
+                            <h3>Education</h3>
                             <div class="highlight-bar"></div>
                         </div>
                         <div class="section-body">
@@ -264,7 +267,7 @@
                 <div class="col-md-4 left-content">
                     <div class="section-container">
                         <div class="section-title">
-                            About Me
+                           <h3>About Me</h3>
                             <div class="highlight-bar"></div>
                         </div>
                         <div class="section-body">
@@ -276,7 +279,7 @@
                     </div>
                     <div class="section-container">
                         <div class="section-title">
-                            Personal Information
+                            <h3>Personal Information</h3>
                             <div class="highlight-bar"></div>
                         </div>
                         <div class="section-body">
@@ -292,7 +295,7 @@
                     </div>
                     <div class="section-container">
                         <div class="section-title">
-                            Skills
+                            <h3>Skills</h3>
                             <div class="highlight-bar"></div>
                         </div>
                         <div class="section-body">
@@ -311,7 +314,7 @@
                     </div>
                     <div class="section-container">
                         <div class="section-title">
-                            Design Tools
+                            <h3>Design Tools</h3>
                             <div class="highlight-bar"></div>
                         </div>
                         <div class="section-body">
@@ -326,7 +329,7 @@
                     </div>
                     <div class="section-container">
                         <div class="section-title">
-                            Awards
+                            <h3>Awards</h3>
                             <div class="highlight-bar"></div>
                         </div>
                         <div class="section-body">
@@ -339,7 +342,7 @@
                     </div>
                     <div class="section-container">
                         <div class="section-title">
-                            Reference
+                            <h3>Reference</h3>
                             <div class="highlight-bar"></div>
                         </div>
                         <div class="section-body">
@@ -381,6 +384,11 @@
         </div>
     </footer>
 <script>
+   
+    NProgress.start();
+
+    setTimeout(function() { NProgress.done(); $('.fade').addClass('in'); }, 100);
+
 $(document).ready(function() {
     var img = new Image();
     img.src = 'img/philippine-bg.gif';

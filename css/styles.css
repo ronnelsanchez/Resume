@@ -15,7 +15,7 @@ html a {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 20px;
     color: #37474F;
@@ -37,6 +37,8 @@ ul.list-bullet li {
 li {
     margin: 0 0 10px;
 }
+
+
 
 .name {
     font-size: 50px;
@@ -89,9 +91,7 @@ li {
 }
 
 .connect-icons {
-    padding: 10px;
-    width: 40px;
-    height: 40px;
+    padding: 10px 13px;
     border-radius: 50%;
     font-size: 16px;
     color: #ffffff;
@@ -99,9 +99,7 @@ li {
 
 .connect-icons:hover,
 .connect-icons:focus {
-    padding: 10px;
-    width: 40px;
-    height: 40px;
+    padding: 10px 13px;
     border-radius: 50%;
     font-size: 16px;
     color: #37474F;
@@ -116,7 +114,7 @@ li {
     border-radius: 50px;
     background-color: #0097a7;
     color: #ffffff;
-    padding: 16px 20px 14px;
+    padding: 17px 20px 16px;
     padding-left: 3px;
     position: relative;
     top: -50px;
@@ -127,12 +125,12 @@ li {
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.30);
     color: #ffffff;
-    padding: 15px;
+    padding: 15px 16px;
     margin-right: 10px;
 }
 
 .cv-download i {
-    font-size: 21px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -159,13 +157,17 @@ li {
 }
 
 .section-title {
-    font-size: 21px;
-    font-weight: 700;
     padding: 5px 0;
     margin-bottom: 20px;
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 1px solid #17bed2;
     color: #263238;
     line-height: 35px;
+}
+
+.section-title h3 {
+    margin: 10px 0;
+    font-size: 21px;
+    font-weight: 700;
 }
 
 .section-container {
@@ -179,8 +181,8 @@ li {
 .highlight-bar {
     height: 5px;
     width: 100px;
-    background: #17bed2;
     position: absolute;
+    border-bottom: 5px solid #17bed2;
 }
 
 .content-title {
